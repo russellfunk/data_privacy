@@ -16,7 +16,7 @@ pip install gensim
 pip install numpy
 pip install spacy
 pip install textacy
-pip install umap-learn[plot]
+pip install umap-learn[plot] # use bash
 pip install matplotlib
 pip install tqdm
 pip install bokeh
