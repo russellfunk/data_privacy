@@ -1,7 +1,0 @@
-pandas
-gensim
-numpy
-spacy
-textacy
-umap
-matplotlib

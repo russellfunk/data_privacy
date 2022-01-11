@@ -16,11 +16,21 @@ pip install gensim
 pip install numpy
 pip install spacy
 pip install textacy
-pip install umap
+pip install umap-learn[plot]
 pip install matplotlib
+pip install tqdm
+pip install bokeh
 
 python -m spacy download en_core_web_lg
 
+python -m gensim.downloader --download glove-wiki-gigaword-50
+python -m gensim.downloader --download glove-wiki-gigaword-100
+python -m gensim.downloader --download glove-wiki-gigaword-200
+python -m gensim.downloader --download glove-wiki-gigaword-300
+python -m gensim.downloader --download glove-twitter-25
+python -m gensim.downloader --download glove-twitter-50
+python -m gensim.downloader --download glove-twitter-100
+python -m gensim.downloader --download glove-twitter-200
 ```
 
 Feel free to email me if you have any questions ([rfunk@umn.edu](mailto:rfunk@umn.edu)).
